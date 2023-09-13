@@ -20,7 +20,7 @@ public class CibiPreferiti {
 			if(arr.length % 2 == 0)
 				System.out.println("I piatti di mezzo della tua classifica sono: " + arr[arr.length / 2 - 1] + " e " + arr[arr.length / 2] + ".");
 			else
-				System.out.println("Il piatto di mezzo della tua classifica è: " + arr[(int)Math.ceil(5 / 2)] + ".");
+				System.out.println("Il piatto di mezzo della tua classifica è: " + arr[(int)Math.ceil(arr.length / 2)] + ".");
 			
 		System.out.println("Arrivederci!");
 		
